@@ -1,0 +1,135 @@
+.mlog{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/log-p-form.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 420px;
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    row-gap: 30px;
+}
+
+#limg{
+    width: 70px;
+    height: 70px;
+}
+
+.imghead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.lform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.lbl{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 2px;
+}
+
+.inp{
+    width: 200px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+}
+
+.linp{
+    width: 100% ;
+    display: flex;
+    column-gap: 15px;
+    justify-content: space-around;
+}
+
+#mlgbtn{
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    /* Text color black when background is white */
+    background: white;
+    background: linear-gradient(55deg, #002d5a 0%, #002d5a 50%, white 50%);
+    background-size: 250% 250%;
+    background-position: 100% 100%;
+    transition: background-position 0.7s ease-in-out, box-shadow 0.5s ease-in-out, color 0.7s ease-in-out;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+#mlgbtn:hover {
+    background-position: 0% 0%;
+    color: white;
+}
+
+#mlgbtn:active {
+    background-color: #001a33;
+    color: white;
+}
+
+#hype{
+    text-decoration: none;
+    color: #001a33;
+    font-size: 20px;
+    padding: 6px;
+}
+
+#hype:hover{
+    color: white;
+    border: 1px white solid;
+    border-radius: 25px;
+
+}
+
+#hypeHo{
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    width: 80px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: 900;
+}
+
+#hypeHo:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}

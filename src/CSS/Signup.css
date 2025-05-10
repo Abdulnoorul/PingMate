@@ -1,0 +1,106 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #283c86, #45a247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.submain{
+    width: 430px;
+    height: 450px;
+    border-radius: 25px;
+    transition: background-color 0.7s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+
+.submain:hover{
+    background-color: rgba(255, 255, 255, 0.090);
+}
+
+.shead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#sighead{
+    color: rgba(255, 255, 255);
+}
+
+.sdfrm{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.sigfrm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.sname{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 0 0 0 10px;
+    height: 30px;
+    font-weight: 900;
+}
+
+.labl{
+    font-weight: 900;
+}
+
+#sigbtn{
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: linear-gradient(135deg, #fff 0%, #fff 50%, transparent 50%);
+    background-size: 250% 250%;
+    background-position: 100% 100%;
+    transition: background-position 0.7s ease;
+    color: white;
+    border: 2px solid white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+
+#sigbtn:hover {
+    background-position: 0% 0%;
+    color: black;
+    font-weight: bold;
+}
+
+#sigbtn:active {
+    background-color: white;
+    transition: background-color 0.2s;
+}
+
+#hypel{
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+}
+
+#hypel:hover{
+    text-decoration:underline;
+}

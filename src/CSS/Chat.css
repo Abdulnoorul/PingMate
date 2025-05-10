@@ -1,0 +1,71 @@
+.chmain{
+    width: 100vw;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('cback.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chats{
+    border: 2px black solid;
+    padding: 10px;
+    background-image: url('/cWall.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 330px;
+}
+
+#cform{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#chbtn{
+    outline: none;
+    border: none;
+    background-color: #C4DFE6;
+    color: black;
+    height: 25px;
+    padding: 2px 0 1px 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: 900;
+}
+
+#cbtn{
+    width: 100px;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    background-color: #20948B;
+    color: white;
+    height: 25px;
+    letter-spacing: 2px;
+    border-radius: 15px;
+}
+
+#chlbtn{
+    width: 100px;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    background-color: #20948B;
+    color: white;
+    height: 25px;
+    letter-spacing: 2px;
+    border-radius: 15px;
+}
